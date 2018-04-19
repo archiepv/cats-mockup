@@ -1,0 +1,118 @@
+/* CSS Document 16px=1rem*/
+
+/* *asterisk means the whole file will be affected */
+html {
+      font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+     }
+
+* {
+   margin: 0;  
+	 padding: 0;
+   max-width: 60rem
+  }
+
+header {
+        background-color: #a8df92;
+        width: 60rem;    
+        height: 12rem;
+        background-position: center;
+       }
+
+.booking {
+          float: right;
+          font-size: 1.8rem;
+         }
+
+.header-title {
+               font-size: 2.8rem;
+               color: #446a35;
+               position: absolute;
+               top: 3.4rem;
+              }
+
+.header-biline {
+                position: absolute;
+                top: 8rem;
+                color: #446a35;
+                letter-spacing: 0.1rem;
+               }
+
+nav ul {
+        background-color: #abc6a1;
+		    height: 3rem;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        }
+
+nav li {
+        display: inline-block;
+        color: #edf8e8;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        position: relative;
+        top: 0.1rem;
+        padding: 0.5rem;
+        list-style-type: none;
+       }
+
+a {
+   color: #edf8e8;
+   list-style-image: none;
+   text-decoration: none;
+  }
+
+article .top-headline {
+                       background-color: #bce7fb;
+                       height: 15rem;
+                       width: 25rem;
+                       float: left;
+		                   position: fixed;
+                       margin: 3rem 1rem 3rem;
+                      }
+
+article .bottom-headline {
+                          background-color: #bce7fb;
+                          height: 15rem;
+                          width: 25rem;
+                          float: left;
+		                      position: fixed;
+                          margin: 20rem 1rem 3rem;
+                         }
+
+.article-headline {
+                   font-size: 2rem;
+                  }
+
+.float-right {
+              float: right;
+              background-color: #75a064;
+              width: 25rem; 
+              height: 32rem;
+              margin: 3rem 1rem;
+              border-style: solid;
+              text-align: center;
+             }
+
+#uncentered {
+             text-align: left;
+             margin-left: 7rem;
+            }
+
+#uncenteredB {
+             	text-align: left;
+             	margin-left: 7rem;
+           	 }
+
+#link-uncentered {
+                  text-align: right;
+                  margin-right: 4rem;
+                 }
+
+footer {
+        position: relative;
+		    background-color: #fea023; 
+		    clear: both;
+		    top: 0;
+        height: 8rem;
+       }
